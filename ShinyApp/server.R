@@ -7,22 +7,26 @@
 #    http://shiny.rstudio.com/
 #
 
-library(shiny)
-
-# Define server logic required to draw a histogram
-function(input, output, session) {
-
-    output$distPlot <- renderPlot({
-
-        # generate bins based on input$bins from ui.R
-        x    <- faithful[, 2]
-        bins <- seq(min(x), max(x), length.out = input$bins + 1)
-
-        # draw the histogram with the specified number of bins
-        hist(x, breaks = bins, col = 'darkgray', border = 'white',
-             xlab = 'Waiting time to next eruption (in mins)',
-             main = 'Histogram of waiting times')
-
-    })
-
+# Define server logic
+server <- function(input, output, session) {
+  
+  # Data Exploration: Render selected plot
+  output$explorationPlot <- renderPlot({
+    # Add code to generate the selected plot based on user input
+    # For example, you can use ggplot2 functions
+  })
+  
+  # Modeling: Fit models and display summary
+  observeEvent(input$fitModelsButton, {
+    # Add code to fit linear regression and random forest models based on user input
+    # Display model summaries and fit statistics
+  })
+  
+  # Prediction: Get predictions based on user input
+  observeEvent(input$predictButton, {
+    # Add code to make predictions using the fitted models and display results
+  })
 }
+
+# Run the Shiny app
+
