@@ -14,11 +14,10 @@ library(randomForest)
 
 # Load mtcars dataset
 data(mtcars)
-
-# Define UI
 ui <- fluidPage(
+  
   navbarPage(
-    title = "Analysis on different caar attributes",
+    title = "mtcars Analysis",
     
     # About tab
     tabPanel("About",
