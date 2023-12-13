@@ -22,11 +22,14 @@ library(openintro)
 
 library(plotly)
 
-
-
-Had issues with modeling section, debugged code many time, and ultimately ran into issues capping execution. Gave a best faith coding effort with all present in the .r file
 library(DT)
 
 library(readxl)
 
 library(caret)
+
+
+
+
+Had issues with modeling section, debugged code many time, and ultimately ran into issues capping execution. Gave a best faith coding effort with all present in the .r file. R Project originated with github integration, however multiple push requests eroded connection, so uploaded UI and server files.
+
