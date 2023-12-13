@@ -15,33 +15,43 @@ shiny::runGitHub('FINALPROJECT', 'ankit-gupta-dscientist')
 The following packages are necessary to run the application: 
 
 install.packages('shiny')
+
 library(shiny)
 
 install.packages('ggplot2')
+
 library(ggplot2)
 
 install.packages('dplyr')
+
 library(dplyr)
 
 install.packages('shinythemes')
+
 library(shinythemes)
 
 install.packages('openintro')
+
 library(openintro)
 
 install.packages('pltoly')
+
 library(plotly)
 
 install.packages('DT')
+
 library(DT)
 
 install.packages('readxl')
+
 library(readxl)
 
 install.packages('shinydashboard')
+
 library(shinydashboard)
 
 install.packages('tidyverse')
+
 library(tidyverse)
 
 
