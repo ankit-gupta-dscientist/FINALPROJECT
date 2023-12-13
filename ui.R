@@ -42,7 +42,7 @@ my_css <- "
 "
 
 # Define UI for application that draws a histogram
-fluidPage(theme = shinytheme("sandstone"),
+ui <- fluidPage(theme = shinytheme("sandstone"),
 
   # Add the CSS style to the Shiny app
   tags$style(my_css),
