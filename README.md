@@ -32,7 +32,7 @@ library(shinydashboard)
 
 library(tidyverse)
 
-library(ggiraphExtra)
+library(ggraphExtra)
 
 library(sjPlot)
 
