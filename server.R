@@ -18,7 +18,7 @@ colnames(hatecrimes) <- make.names(colnames(hatecrimes))
 
 
 # Define server logic required to draw a histogram
-function(input, output, session) {
+server <- function(input, output, session) {
 
   # Data Exploration
   
