@@ -10,6 +10,7 @@ The app is for anyone else who is interested in visalizing and modelling differe
 
 The following packages are necessary to run the application: shiny::runGitHub('FINALPROJECT', 'ankit-gupta-dscientist')
 
+
 library(shiny)
 
 library(ggplot2)
@@ -26,29 +27,9 @@ library(DT)
 
 library(readxl)
 
-library(shiny)
-
 library(shinydashboard)
 
 library(tidyverse)
-
-library(ggraphExtra)
-
-library(sjPlot)
-
-library(sjmisc)
-
-library(sjlabelled)
-
-library(caret)
-
-library(rpart)
-
-library(rpart.plot)
-
-library(collapsibleTree)
-
-
 
 
 Had issues with modeling section, debugged code many time, and ultimately ran into issues capping execution. Gave a best faith coding effort with all present in the .r file. R Project originated with github integration, however multiple push requests eroded connection, so uploaded UI and server files.
