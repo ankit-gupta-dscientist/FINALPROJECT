@@ -22,6 +22,9 @@ library(openintro)
 
 library(plotly)
 
+
+
+Had issues with modeling section, debugged code many time, and ultimately ran into issues capping execution. Gave a best faith coding effort with all present in the .r file
 library(DT)
 
 library(readxl)
