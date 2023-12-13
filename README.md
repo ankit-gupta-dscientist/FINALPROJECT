@@ -8,7 +8,7 @@ For this project, I wanted to look at frequency of hate crimes around different 
 
 The app is for anyone else who is interested in visalizing and modelling different determinants for crime rate across the country. 
 
-The following packages are necessary to run the application: 
+The following packages are necessary to run the application: shiny::runGitHub('FINALPROJECT', 'ankit-gupta-dscientist')
 
 library(shiny)
 
