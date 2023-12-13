@@ -11,11 +11,19 @@ The app is for anyone else who is interested in visalizing and modelling differe
 The following packages are necessary to run the application: 
 
 library(shiny)
+
 library(ggplot2)
+
 library(dplyr)
+
 library(shinythemes)
+
 library(openintro)
+
 library(plotly)
+
 library(DT)
+
 library(readxl)
+
 library(caret)
